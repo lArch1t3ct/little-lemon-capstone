@@ -1,0 +1,320 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p, span {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#main-header {
+  display: flex;
+  padding: 0 15%;
+  gap: 16%;
+}
+
+#header-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+#header-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-nav a:hover {
+  font-style: italic;
+  border-bottom: 2px solid #F4CE14;
+}
+
+footer {
+  display: flex;
+  padding: 0 15%;
+  gap: 10%;
+  background-color: #495E57;
+  color: white;
+}
+
+footer > img {
+  width: 20%;
+  height: 40%;
+  align-self: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul > li {
+  margin-bottom: .6rem;
+}
+
+footer li > a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li > a:hover {
+  border-bottom: 2px solid #F4CE14;
+  font-style: italic;
+}
+
+p {
+  font-size: 16pt;
+  line-height: 1.5;
+  max-width: 65ch;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+#hero-section {
+  background-color: #495E57;
+  padding: 0 15%;
+  display: flex;
+  gap: 15%;
+  color: white;
+}
+
+#hero-section a {
+  text-decoration: none;
+  color: black;
+}
+
+#hero-section a:visited {
+  color: black;
+}
+
+#hero-section header > p,
+#about-section header > p
+{
+  font-size: 18pt;
+  margin-top: -40pt;
+}
+
+#hero-section article > p {
+  max-width: 40ch;
+}
+
+
+#hero-section > img {
+  border-radius: 16pt;
+  top: 50px;
+  left: 20px;
+  position: relative;
+}
+
+#hero-section article > button {
+  background-color: #F4CE14;
+  border-radius: 16pt;
+  border: none;
+  padding: 10px;
+}
+
+#hero-section article > button:hover,
+#specials-section > header > button:hover
+{
+  background-color: #ee9972;
+}
+
+#specials-section > header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-left: 15%;
+  padding-right: 18.3%;
+}
+
+#specials-section > header > button {
+  background-color: #F4CE14;
+  border: none;
+  border-radius: 16pt;
+  height: 30px;
+  padding: 8px 10px 10px 10px;
+  justify-self: center;
+  margin-top: 15px;
+}
+
+#specials-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#card-container {
+  display: flex;
+  text-align: center;
+  padding-left: 15%;
+  gap:6%;
+}
+
+#card-container > article {
+  background-color: #EDEFEE;
+
+}
+
+#card-container > article > img,
+#card-container > article
+{
+  border-top-left-radius: 16pt;
+  border-top-right-radius: 16pt;
+}
+
+#card-container > article > header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18pt;
+  padding:0 2%;
+}
+
+#card-container > article > p {
+  max-width: 20ch;
+}
+
+.price {
+  align-self: center;
+  color: #ee9972;
+}
+
+#about-section {
+  padding: 0 15%;
+  display: flex;
+  gap: 5%;
+  height: 60vh;
+}
+
+#mario-adrian-photo-1,
+#mario-adrian-photo-2
+{
+  position: relative;
+}
+
+#mario-adrian-photo-1 {
+  top: 10rem;
+}
+
+#mario-adrian-photo-2 {
+  top: 5rem;
+  right: 7rem;
+}
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  background-color: #ee9972;
+  margin-top:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#client-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.client-info {
+  display: flex;
+  gap: 6%;
+  justify-items: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#res-date,
+#res-time,
+#guests,
+#occasion,
+form > button {
+  padding: 8px;
+  border: 2px solid #495E57;
+}
+
+#occasion {
+  width: 15vw;
+}
+
+#guests {
+  width: 14vw;
+}
+
+#res-time {
+  width: 14.9vw;
+}
+
+#res-date {
+  width: 13.2vw;
+}
+
+form > button {
+  border-radius: 8pt;
+  border: none;
+  background-color: #495E57;
+  color: white;
+}
+
+form > button:hover {
+  background-color: #ee9972;
+}
+
+form > button:disabled {
+  background-color: #EDEFEE;
+  color: black;
+  font-style: italic;
+}
+
+#res-date:focus,
+#res-time:focus,
+#guests:focus,
+#occasion:focus,
+form > button:hover {
+  outline: none;
+}
+
+#confirmation-header > span {
+  color: #495E57;
+  font-weight: bold;
+}
+
+#confirmation-header {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  height: 60vh;
+  background-color: #EDEFEE;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  font-size: small;
+}
